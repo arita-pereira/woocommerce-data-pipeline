@@ -1,5 +1,9 @@
 # WooCommerce Data Pipeline (Python)
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-lightgrey)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 **Architecture:** `SOURCE → BRONZE → SILVER → GOLD`  
 **Stack:** Python · Pandas · Parquet  
 **Author:** Rita Pereira
@@ -35,6 +39,15 @@ project/
 │   ├── __init__.py
 │   ├── io.py                     # CSV/Parquet read-write helpers
 │   └── preprocessing.py          # Text, numeric, and date cleaning utilities
+├── notebooks/
+│   ├── pipeline_woocommerce_etl.ipynb
+│   └── documentacion_pipeline_woocommerce.ipynb
+├── data/
+│   └── sample/                   # Realistic fake data to try the pipeline
+│       ├── order_items.csv
+│       ├── order_itemmeta.csv
+│       ├── orders_with_staff_assignment.csv
+│       └── post_with_hours.csv
 └── main.py                       # Full pipeline orchestration
 ```
 
@@ -82,6 +95,8 @@ The pipeline uses **auto-discovery** — it scans the source folder and maps fil
 ---
 
 ## How to run
+
+Sample data is available in `data/sample/` — copy those files into `data/source/YYYY/MM/DD/` before running the pipeline.
 
 ```bash
 python main.py
@@ -168,9 +183,20 @@ Two Jupyter notebooks are included alongside the source code:
 | Notebook | Purpose |
 |---|---|
 | `pipeline_woocommerce_etl.ipynb` | Runs the full pipeline end-to-end, step by step. Each section covers one stage (ingestion, each Silver transform, each Gold model) so you can inspect the output at every point. Includes a referential integrity audit and an automated checklist at the end. |
-| `documentacion_pipeline_woocommerce_1_2.ipynb` | Full technical and business documentation. Covers the business questions the pipeline is designed to answer, all tool and design decisions, detailed transformation logic for every table, the star schema ERD, and an end-to-end pipeline reference. |
+| `documentacion_pipeline_woocommerce.ipynb` | Full technical and business documentation. Covers the business questions the pipeline is designed to answer, all tool and design decisions, detailed transformation logic for every table, the star schema ERD, and an end-to-end pipeline reference. |
 
 The documentation notebook in particular is useful if you want to understand the *why* behind each design decision, not just the *what*.
+
+---
+
+## What I learned
+
+Building this pipeline from scratch taught me a lot about real-world data engineering challenges. A few highlights:
+
+- **Data is never clean** — WooCommerce's native key-value metadata format, Spanish decimal separators, WordPress post types mixed with order data, and duplicate `order_id` columns from upstream joins were all things I had to handle explicitly
+- **Layered architecture pays off** — having Bronze as an untouched backup meant I could iterate on Silver and Gold transformations freely without ever re-ingesting the source
+- **Fail loudly, not silently** — adding referential integrity checks and validation assertions at the end of each layer made bugs much easier to catch and debug
+- **Design decisions need documentation** — writing the documentation notebook forced me to articulate *why* each table is structured the way it is, which made the whole model more deliberate
 
 ---
 
