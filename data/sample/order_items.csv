@@ -1,0 +1,154 @@
+order_item_id,order_item_name,order_item_type,order_id
+1,Cotton Socks 3pk - Mix,line_item,5001
+2,Cotton Socks 3pk - Black,line_item,5002
+3,Canvas Sneakers - White - 39,line_item,5002
+4,Slim Chino - Beige - 32,line_item,5003
+5,Slim Chino - Khaki - 32,line_item,5004
+6,Cotton Socks 3pk - Mix,line_item,5004
+7,Denim Jacket - Blue - L,line_item,5004
+8,Canvas Sneakers - White - 41,line_item,5004
+9,Gift Card,line_item,5005
+10,Sport Shorts - Black - M,line_item,5006
+11,Classic Tee - White - M,line_item,5006
+12,Linen Shirt - Stripe - L,line_item,5007
+13,Denim Jacket - Black - XL,line_item,5007
+14,Gift Card,line_item,5007
+15,Slim Chino - Khaki - 34,line_item,5007
+16,Canvas Sneakers - Red - 41,line_item,5008
+17,Sport Shorts - Black - M,line_item,5009
+18,Slim Chino - Khaki - 32,line_item,5009
+19,Denim Jacket - Blue - L,line_item,5009
+20,Gift Card,line_item,5010
+21,Wool Sweater - Camel - S,line_item,5011
+22,Classic Tee - White - M,line_item,5011
+23,Gift Card,line_item,5011
+24,Cotton Socks 3pk - Black,line_item,5012
+25,Wool Sweater - Green - L,line_item,5012
+26,Gift Card,line_item,5013
+27,Wool Sweater - Green - S,line_item,5013
+28,Wool Sweater - Green - XL,line_item,5014
+29,Cotton Socks 3pk - Black,line_item,5014
+30,Linen Shirt - White - L,line_item,5014
+31,Sport Shorts - Grey - M,line_item,5014
+32,Sport Shorts - Blue - M,line_item,5015
+33,Slim Chino - Beige - 32,line_item,5015
+34,Wool Sweater - Camel - XL,line_item,5015
+35,Cotton Socks 3pk - White,line_item,5015
+36,Canvas Sneakers - White - 41,line_item,5016
+37,Leather Belt - Black,line_item,5016
+38,Linen Shirt - Stripe - L,line_item,5017
+39,Wool Sweater - Green - L,line_item,5017
+40,Denim Jacket - Black - M,line_item,5017
+41,Slim Chino - Beige - 30,line_item,5017
+42,Gift Card,line_item,5018
+43,Classic Tee - Black - L,line_item,5018
+44,Leather Belt - Black,line_item,5019
+45,Sport Shorts - Black - S,line_item,5019
+46,Slim Chino - Khaki - 32,line_item,5019
+47,Gift Card,line_item,5020
+48,Cotton Socks 3pk - Black,line_item,5020
+49,Classic Tee - White - L,line_item,5020
+50,Wool Sweater - Camel - S,line_item,5021
+51,Denim Jacket - Black - S,line_item,5021
+52,Leather Belt - Brown,line_item,5021
+53,Slim Chino - Khaki - 30,line_item,5022
+54,Sport Shorts - Blue - S,line_item,5023
+55,Classic Tee - Black - XL,line_item,5023
+56,Gift Card,line_item,5023
+57,Classic Tee - Navy - M,line_item,5024
+58,Linen Shirt - Stripe - S,line_item,5024
+59,Sport Shorts - Grey - S,line_item,5024
+60,Canvas Sneakers - Black - 40,line_item,5024
+61,Denim Jacket - Black - L,line_item,5025
+62,Gift Card,line_item,5026
+63,Denim Jacket - Black - S,line_item,5027
+64,Classic Tee - Navy - M,line_item,5027
+65,Denim Jacket - Black - XL,line_item,5028
+66,Linen Shirt - Blue - M,line_item,5029
+67,Denim Jacket - Black - XL,line_item,5029
+68,Canvas Sneakers - Red - 39,line_item,5029
+69,Cotton Socks 3pk - Mix,line_item,5029
+70,Wool Sweater - Burgundy - M,line_item,5030
+71,Leather Belt - Brown,line_item,5031
+72,Slim Chino - Beige - 30,line_item,5032
+73,Linen Shirt - Stripe - L,line_item,5033
+74,Leather Belt - Black,line_item,5033
+75,Sport Shorts - Grey - M,line_item,5033
+76,Canvas Sneakers - Red - 40,line_item,5033
+77,Sport Shorts - Black - S,line_item,5034
+78,Gift Card,line_item,5034
+79,Slim Chino - Khaki - 30,line_item,5034
+80,Canvas Sneakers - Black - 40,line_item,5035
+81,Classic Tee - Navy - M,line_item,5035
+82,Gift Card,line_item,5035
+83,Wool Sweater - Burgundy - XL,line_item,5035
+84,Linen Shirt - Stripe - L,line_item,5036
+85,Cotton Socks 3pk - Mix,line_item,5036
+86,Classic Tee - Black - M,line_item,5036
+87,Wool Sweater - Burgundy - L,line_item,5036
+88,Denim Jacket - Blue - L,line_item,5037
+89,Slim Chino - Beige - 28,line_item,5037
+90,Leather Belt - Brown,line_item,5037
+91,Classic Tee - White - M,line_item,5037
+92,Linen Shirt - White - L,line_item,5038
+93,Slim Chino - Khaki - 34,line_item,5038
+94,Gift Card,line_item,5038
+95,Gift Card,line_item,5039
+96,Slim Chino - Grey - 32,line_item,5039
+97,Classic Tee - Navy - L,line_item,5039
+98,Linen Shirt - Stripe - M,line_item,5040
+99,Canvas Sneakers - Black - 41,line_item,5040
+100,Gift Card,line_item,5040
+101,Sport Shorts - Grey - M,line_item,5040
+102,Sport Shorts - Black - M,line_item,5041
+103,Classic Tee - Black - L,line_item,5041
+104,Leather Belt - Black,line_item,5041
+105,Canvas Sneakers - Red - 39,line_item,5041
+106,Leather Belt - Black,line_item,5042
+107,Classic Tee - Black - L,line_item,5042
+108,Slim Chino - Khaki - 32,line_item,5042
+109,Linen Shirt - Stripe - M,line_item,5042
+110,Sport Shorts - Blue - L,line_item,5043
+111,Slim Chino - Beige - 34,line_item,5043
+112,Wool Sweater - Camel - L,line_item,5044
+113,Cotton Socks 3pk - Mix,line_item,5045
+114,Leather Belt - Black,line_item,5046
+115,Sport Shorts - Grey - M,line_item,5046
+116,Linen Shirt - Stripe - L,line_item,5046
+117,Classic Tee - White - L,line_item,5046
+118,Cotton Socks 3pk - Black,line_item,5047
+119,Canvas Sneakers - Black - 40,line_item,5047
+120,Wool Sweater - Camel - M,line_item,5048
+121,Denim Jacket - Blue - M,line_item,5048
+122,Denim Jacket - Blue - L,line_item,5049
+123,Leather Belt - Brown,line_item,5049
+124,Slim Chino - Khaki - 30,line_item,5049
+125,Gift Card,line_item,5050
+126,Denim Jacket - Black - XL,line_item,5050
+127,Leather Belt - Black,line_item,5050
+128,Classic Tee - Navy - S,line_item,5051
+129,Slim Chino - Khaki - 28,line_item,5051
+130,Wool Sweater - Green - XL,line_item,5051
+131,Sport Shorts - Black - S,line_item,5052
+132,Canvas Sneakers - Red - 41,line_item,5052
+133,Gift Card,line_item,5052
+134,Linen Shirt - Stripe - S,line_item,5052
+135,Cotton Socks 3pk - Black,line_item,5053
+136,Wool Sweater - Green - M,line_item,5054
+137,Linen Shirt - White - L,line_item,5055
+138,Denim Jacket - Blue - S,line_item,5055
+139,Canvas Sneakers - Black - 42,line_item,5056
+140,Leather Belt - Brown,line_item,5056
+141,Cotton Socks 3pk - Mix,line_item,5056
+142,Classic Tee - Navy - XL,line_item,5057
+143,Denim Jacket - Black - L,line_item,5057
+144,Cotton Socks 3pk - Mix,line_item,5057
+145,Wool Sweater - Burgundy - XL,line_item,5058
+146,Canvas Sneakers - Red - 39,line_item,5058
+147,Classic Tee - White - L,line_item,5058
+148,Linen Shirt - White - L,line_item,5058
+149,Denim Jacket - Black - XL,line_item,5059
+150,Sport Shorts - Blue - M,line_item,5059
+151,Canvas Sneakers - Red - 38,line_item,5059
+152,Cotton Socks 3pk - Mix,line_item,5059
+153,Leather Belt - Black,line_item,5060
